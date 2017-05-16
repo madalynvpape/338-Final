@@ -1,2 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
+
+
+/*Nav Styling begin here*/
+
+#logo{
+  width: 300px;
+}
+
+
+ul{
+  list-style-type: none;
+  
+}
