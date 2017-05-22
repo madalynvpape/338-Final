@@ -3,9 +3,6 @@
 
 
 /*Nav Styling begin here*/
-
-
-
 nav{
   width: 100%;
   height: 40px;
@@ -31,6 +28,7 @@ a{
 a:link{
   text-decoration: none;
   font-family: Helvetica;
+  color: #8a3433;
 }
 a:visited{
   color:black;
@@ -43,3 +41,15 @@ a:hover{
 a:active{
   color: red;
 }
+
+/*Preview Div sytling*/
+
+
+/*Sign Up Div styling*/
+
+
+/*Footer Div styling*/
+
+
+
+/**/
