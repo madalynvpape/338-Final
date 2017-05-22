@@ -43,13 +43,26 @@ a:active{
 }
 
 /*Preview Div sytling*/
-
+#header {
+  background:red;
+}
 
 /*Sign Up Div styling*/
-
+#signup {
+  background: yellow;
+}
 
 /*Footer Div styling*/
-
+#footer{
+  /*position: absolute;*/
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  margin: 0 auto;
+  background: gray;
+  /*clear: both; (may not be necessary)*/
+}
 
 
 /**/
