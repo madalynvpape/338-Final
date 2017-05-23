@@ -64,23 +64,7 @@ li{
 }
 
 
-/*Welcome Div sytling*/
-.row {
-  width: 100%;
-}
-
-.coverimage {
-  float:left;
-}
-
-#welcomeCarousel{
-  height:20%;
-}
-
-#indicators{
-  align: center;
-}
-
+/*Welcome Container Div sytling*/
 #btn{
   border:1px solid #990000;
   margin:20px 0;
@@ -91,18 +75,19 @@ li{
   border: 2px solid #990000;
   color:white;
 }
-.btn{
+#btn.btn{
   text-decoration: none;
   font-size: 20px;
   font-family: Verdana, sans-serif;
 }
-.btn a:link{
+#btn.btn a:link{
   font-weight: 800;
 }
-.btn a:hover{
+#btn.btn a:hover{
   font-weight: 800;
+  color: #990000;
 }
-.btn a:active{
+#btn.btn a:active{
   font-weight: 800;
   text-decoration: none;
 }
@@ -113,7 +98,7 @@ li{
 /*Sign Up Div styling*/
 #signup {
   width: 100%;
-  clear: both;
+
   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url("../images/corks.jpg");
   height:70vh;
   background-position: center;
@@ -123,9 +108,12 @@ li{
 #signup h1{
   color:white;
 }
-
 #signup p{
   color:white;
+}
+
+#subscribe{
+
 }
 
 
