@@ -5,39 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <!--Link to CSS, google fonts, fontawesome, etc.-->
+  <!--Link to CSS, Bootstrap, google fonts, fontawesome, etc.-->
   <link href="css/main.css" type="text/CSS" rel="stylesheet">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/CSS" rel="stylesheet">
+  <link href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" type="text/CSS" rel="stylesheet">
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="bootstrap-3.3.7-dist/js/boostrap.min.js"></script>
+
   <title>Waxwing Wine Cellars</title>
 </head>
 <body>
 <!--Navigation Bar-->
 <div id="top">
     <a href="index.html"><img id="logo" src="images/Waxwing-Logo.gif" alt="waxwing wordmark logo" width="300px"></a>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="wines.html">Wines</a></li>
-      <li><a href="vineyards.html">Vineyards</a></li>
-      <li><a href="about.html">About</a></li>
+  <nav id="bootstrap-overrides">
+    <ul id="bootstrap-overrides">
+      <li id="bootstrap-overrides"><a href="index.html">Home</a></li>
+      <li id="bootstrap-overrides"><a href="wines.html">Wines</a></li>
+      <li id="bootstrap-overrides"><a href="vineyards.html">Vineyards</a></li>
+      <li id="bootstrap-overrides"><a href="about.html">About</a></li>
     </ul>
   </nav>
 </div>
 
 
 <!--Carousel begins here-->
-<div id="welcome" class="carousel slide" data-ride="carousel">
+<div id="welcomeCarousel" class="carousel slide" data-ride="carousel">
     <!--This specifies indicators at bottom-->
     <ol>
-      <li data-target="#welcome" data-slide-to="0" class="active"></li>
-      <li data-target="#welcome" data-slide-to="1"></li>
-      <li data-target="#welcome" data-slide-to="2"></li>
-      <li data-target="#welcome" data-slide-to="3"></li>
+      <li data-target="#welcomeCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#welcomeCarousel" data-slide-to="1"></li>
+      <li data-target="#welcomeCarousel" data-slide-to="2"></li>
+      <li data-target="#welcomeCarousel" data-slide-to="3"></li>
     </ol>
     <!--carousel content-->
   <div class="carousel-inner" role="listbox" >
