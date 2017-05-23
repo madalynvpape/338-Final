@@ -16,6 +16,7 @@ nav{
 
 ul{
   list-style-type: none;
+  overflow: hidden;
 }
 
 li{
@@ -53,6 +54,12 @@ hr{
 #header {
 
 }
+
+.coverimage {
+  float: left;
+}
+
+
 
 /*Sign Up Div styling*/
 #signup {
