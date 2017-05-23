@@ -18,7 +18,7 @@ p{
   height: 60px;
   color: grey;
   overflow: hidden;
-  max-width:
+  margin:10px;
 }
 
 #bootstrap-overrides nav{
@@ -55,7 +55,7 @@ li{
   color: #990000;
   font-weight: 800;
   border-bottom:1px solid #990000;
-  transition: all 0.25s ease-in;
+  transition: all 0.5s ease-in;
   padding:5px 0;
 
 }
@@ -80,6 +80,34 @@ li{
 #indicators{
   align: center;
 }
+
+#btn{
+  border:1px solid #990000;
+  margin:20px 0;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+#btn:hover{
+  border: 2px solid #990000;
+  color:white;
+}
+.btn{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Verdana, sans-serif;
+}
+.btn a:link{
+  font-weight: 800;
+}
+.btn a:hover{
+  font-weight: 800;
+}
+.btn a:active{
+  font-weight: 800;
+  text-decoration: none;
+}
+
+
 
 
 /*Sign Up Div styling*/
