@@ -1,43 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!--Link to CSS, google fonts, fontawesome, etc.-->
-  <link href="css/main.css" type="text/CSS" rel="stylesheet">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Waxwing Vineyards</title>
+
+  <!--Link to CSS, Bootstrap, google fonts, fontawesome, etc.-->
+  <link href="css/main.css" type="text/CSS" rel="stylesheet">
+  <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/CSS" rel="stylesheet">
+  <link href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" type="text/CSS" rel="stylesheet">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="bootstrap-3.3.7-dist/js/boostrap.min.js"></script>
+
+  <title>Waxwing: Vineyards</title>
 </head>
 <body>
-
-  <!--Navigation Bar-->
-
+<!--Navigation Bar-->
+<div id="top">
     <a href="index.html"><img id="logo" src="images/Waxwing-Logo.gif" alt="waxwing wordmark logo" width="300px"></a>
-  <nav>
-
-
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="wines.html">Wines</a></li>
-      <li><a href="vineyards.html">Vineyards</a></li>
-      <li><a href="about.html">About</a></li>
+  <nav id="bootstrap-overrides">
+    <ul id="bootstrap-overrides">
+      <li id="bootstrap-overrides"><a href="index.html">Home</a></li>
+      <li id="bootstrap-overrides"><a href="wines.html">Wines</a></li>
+      <li id="bootstrap-overrides"><a href="vineyards.html">Vineyards</a></li>
+      <li id="bootstrap-overrides"><a href="about.html">About</a></li>
     </ul>
   </nav>
+</div>
 
 
 
-  <!--Footer div-->
-  <div id="footer">
 
-  <a href="#top"><h2>Back to top</h2></a>
-  <p>
-    Copyright Waxwing Wine Cellars Inc. All rights reserved.
-    (415)902-3468
-    scott@waxwingwines.com
-    111 Industrial Rd, #8, Belmont, CA 94002
-  </p>
-  </div>
 
+
+
+
+
+
+
+
+
+
+<!--Footer div-->
+<div id="footer" class="container">
+    <div id="back-top" class="row">
+        <a href="#top"><h2>Back to top</h2></a>
+    </div>
+    <div id="foot-text" class="row col-sm-12">
+        <p>
+          (415) 902-3468 &nbsp;|&nbsp;
+          scott@waxwingwines.com &nbsp;|&nbsp;
+          111 Industrial Rd, #8, Belmont, CA 94002
+        </p>
+        <p>
+          Copyright Waxwing Wine Cellars Inc. All rights reserved.
+        </p>
+    </div>
+</div><!--end footer container-->
 
 </body>
 </html>

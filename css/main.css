@@ -45,14 +45,15 @@ li{
 #bootstrap-overrides a:link{
   text-decoration: none;
   font-family: Helvetica;
+  font-size: 1.1em;
   color: #8a3433;
 }
-a:visited{
+#bootstrap-overrides a:visited{
   color:black;
 }
 #bootstrap-overrides a:hover{
   color: #990000;
-  font-weight: 700;
+  font-weight: 800;
   border-bottom:1px solid #990000;
   transition: all 0.25s ease-in;
   padding:5px 0;
