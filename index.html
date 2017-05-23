@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!--Link to CSS, google fonts, fontawesome, etc.-->
-  <link href="css/main.css" type="text/CSS" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!--Link to CSS, google fonts, fontawesome, etc.-->
+  <link href="css/main.css" type="text/CSS" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <title>Waxwing Wine Cellars</title>
 </head>
 <body>
@@ -22,10 +24,28 @@
   </nav>
 </div>
 
-<!--Welcome div-->
+
+<!--Carousel begins here-->
+<div id="welcome" class="carousel slide" data-ride="carousel">
+    <!--This specifies indicators at bottom-->
+    <ol>
+      <li data-target="#welcome" data-slide-to="1" class="active"></li>
+      <li data-target="#welcome" data-slide-to="2"></li>
+      <li data-target="#welcome" data-slide-to="3"></li>
+    </ol>
+  <div class="carousel-inner">
+    <div class="item active"><img src="images/bottles.jpg" alt="waxwing bottles and barrel"></div>
+    <div class="item"><img src="images/glasses.jpg" alt="glasses of wine"></div>
+    <div class="item"><img src="images/bottles.jpg" alt="waxwing bottles and barrel"></div>
+
+  </div>
+</div><!--end carousel div-->
+
+
+
+<!--Welcome div
 <div class="container">
 <div class="row">
-        <!--Possible hero slider-->
         <div class="col-sm-7">
           <img class="coverimage" src="images/bottles.jpg" alt="waxwing bottles in front of barrel" width="620"/>
         </div>
@@ -39,8 +59,7 @@
         ferment with little or no additions and age in broken-in barrels from a
         variety of French coopers.</p>
       </div>
-      <!--<p>Please sign up for our mailing list to hear about future tastings, sales
-        events, and other Waxwing news.</p>-->
+-->
 
 
 </div>
@@ -50,7 +69,7 @@
 <!--Sign Up for Mailing List Div-->
 <div id="signup" class="container-2">
 <div class="row">
-    <div class="col-sm-4">
+    <div id="subscribe" class="col-sm-4">
     <h1>Sign up for our mailing list</h1>
     <p>Join our mailing list to be notified of wine tastings, future releases, sales events, and other news from Waxwing Wine Cellars.</p>
   </div>
@@ -59,7 +78,7 @@
       <p>First Name: <input class="form-control" type="text" name="email" required="required"/>
       Email Address: <input class="form-control" type="text" name="email" required="required"/>
       <button type="button">Subscribe</button>
-     </p>
+      </p>
       </form>
   </div>
 </div>
