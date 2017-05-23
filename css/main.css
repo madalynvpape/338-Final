@@ -77,6 +77,10 @@ li{
   height:20%;
 }
 
+#indicators{
+  align: center;
+}
+
 
 /*Sign Up Div styling*/
 #signup {
