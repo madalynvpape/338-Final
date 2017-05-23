@@ -13,8 +13,6 @@
 <div id="top">
     <a href="index.html"><img id="logo" src="images/Waxwing-Logo.gif" alt="waxwing wordmark logo" width="300px"></a>
   <nav>
-
-
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="wines.html">Wines</a></li>
@@ -24,55 +22,66 @@
   </nav>
 </div>
 
-<!--Preview Div-->
-<div id="header">
+<!--Welcome div-->
+<div class="container">
+<div class="row">
         <!--Possible hero slider-->
-        <img src="images/bottles.jpg" alt="waxwing bottles in front of barrel" width="620"/>
-
-        <p>Welcome to Waxwing Wines. Our goal at Waxwing it to make the wines in a flight you want to keep
+        <div class="col-sm-7">
+          <img class="coverimage" src="images/bottles.jpg" alt="waxwing bottles in front of barrel" width="620"/>
+        </div>
+        <div class="col-sm-5">
+        <h2>Welcome to Waxwing Wines</h2>
+        <p>Our goal at Waxwing it to make the wines in a flight you want to keep
         drinking after you have pushed everything else away; wines that show
         depth and integrity with bright acidity, compelling aromas and delicious
         flavors. To do this we source grapes from cool and windy vineyards up and
         down the coast of California. We pick the grapes at modest brix levels,
         ferment with little or no additions and age in broken-in barrels from a
         variety of French coopers.</p>
-
-        <p>Please sign up for our mailing list to hear about future tastings, sales
-        events, and other Waxwing news.</p>
+      </div>
+      <!--<p>Please sign up for our mailing list to hear about future tastings, sales
+        events, and other Waxwing news.</p>-->
 
 
 </div>
-
+</div><!--end first container-->
 
 
 <!--Sign Up for Mailing List Div-->
-<div id="signup">
+<div id="signup" class="container-2">
+<div class="row">
+    <div class="col-sm-4">
     <h1>Sign up for our mailing list</h1>
     <p>Join our mailing list to be notified of wine tastings, future releases, sales events, and other news from Waxwing Wine Cellars.</p>
-      <form action="">
-      First Name: <input type="text" name="email" required="required"/>
-      Email Address: <input type="text" name="email" required="required"/>
+  </div>
+  <div class="col-sm-4 form-group">
+      <form>
+      <p>First Name: <input class="form-control" type="text" name="email" required="required"/>
+      Email Address: <input class="form-control" type="text" name="email" required="required"/>
       <button type="button">Subscribe</button>
-
-
+     </p>
       </form>
+  </div>
 </div>
-
+</div><!--end second container-->
 
 
 <!--Footer div-->
-<div id="footer">
-
-<a href="#top"><h2>Back to top</h2></a>
-<p>
-  Copyright Waxwing Wine Cellars Inc. All rights reserved.
-  (415)902-3468
-  scott@waxwingwines.com
-  111 Industrial Rd, #8, Belmont, CA 94002
-</p>
-</div>
-
-
+<div id="footer" class="container">
+    <div id="back-top" class="row">
+        <a href="#top"><h2>Back to top</h2></a>
+    </div>
+    <div id="foot-text" class="row col-sm-12">
+        <p>
+          (415) 902-3468 &nbsp;|&nbsp;
+          scott@waxwingwines.com &nbsp;|&nbsp;
+          111 Industrial Rd, #8, Belmont, CA 94002
+        </p>
+        <p>
+          Copyright Waxwing Wine Cellars Inc. All rights reserved.
+        </p>
+    </div>
+</div><!--end footer container-->
 
 
 

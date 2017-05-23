@@ -1,6 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
 
+p{
+  font-family: Verdana, sans-serif;
+}
+
+
+
+
+
 
 /*Nav Styling begin here*/
 #logo{
@@ -8,10 +16,16 @@
   margin: auto 40px;
 }
 
+#top{
+  height: 60px;
+  color: grey;
+  overflow: hidden;
+  max-width:
+}
+
 nav{
   width: 100%;
-  height: 40px;
-
+  height: 60px;
 }
 
 ul{
@@ -26,7 +40,6 @@ li{
   width: 200px;
 }
 
-
 a{
   text-decoration: none;
 }
@@ -40,43 +53,89 @@ a:visited{
   color:black;
 }
 a:hover{
-  color: black;
+  color: #990000;
   font-weight: 700;
+  border-bottom:1px solid #990000;
+  transition: all 0.25s ease-in;
+  padding:5px 0;
 
 }
 a:active{
   color: red;
 }
-hr{
-  display: block;
-}
-/*Preview Div sytling*/
-#header {
 
+
+/*Welcome Div sytling*/
+.row {
+  width: 100%;
+}
+
+.row p{
+  padding: 50px;
 }
 
 .coverimage {
-  float: left;
+  float:left;
 }
 
 
 
 /*Sign Up Div styling*/
 #signup {
+  width: 100%;
+  clear: both;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url("../images/corks.jpg");
+  height:70vh;
+  background-position: center;
+  background-size: cover;
 
 }
+
+#signup h1{
+  color:white;
+}
+
+#signup p{
+  color:white;
+}
+
+
+
+
+
 
 /*Footer Div styling*/
 #footer{
-  /*position: absolute;*/
+  position: relative;
   left: 0;
   bottom: 0;
-  height: 60px;
+  height: 150px;
   width: 100%;
   margin: 0 auto;
-  background: gray;
-  /*clear: both; (may not be necessary)*/
 }
+.container#footer{
+  /*perhaps have background image or pattern*/
+}
+
+
+#back-top{
+  text-align: center;
+}
+
+#back-top h2{
+  color:gray;
+}
+
+#foot-text{
+  text-align: center;
+  margin:0;
+}
+
+#foot-text p{
+
+}
+
+
 
 
 /**/
