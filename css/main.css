@@ -162,7 +162,7 @@ li{
 /*Wines.html Styles*/
 #wine-nav {
   width: 100%;
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url("../images/corks.jpg");
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/tasting.jpg");
   height:70vh;
   background-position: center;
   background-size: cover;
