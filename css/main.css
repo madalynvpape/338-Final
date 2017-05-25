@@ -65,11 +65,13 @@ li{
 
 
 /*Welcome Container Div sytling*/
+
 #btn{
   border:1px solid #990000;
   margin:20px 0;
   border-radius: 10px;
   font-size: 1.5em;
+  position: relative;
 }
 #btn:hover{
   border: 2px solid #990000;
@@ -98,7 +100,6 @@ li{
 /*Sign Up Div styling*/
 #signup {
   width: 100%;
-
   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url("../images/corks.jpg");
   height:70vh;
   background-position: center;
@@ -156,4 +157,23 @@ li{
 
 
 
-/**/
+
+
+/*Wines.html Styles*/
+#wine-nav {
+  width: 100%;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url("../images/corks.jpg");
+  height:70vh;
+  background-position: center;
+  background-size: cover;
+}
+
+#wine-type{
+  text-align: center;
+  margin-top: 30%;
+  display: inline;
+}
+
+#wine-type h2{
+  color: white;
+}
