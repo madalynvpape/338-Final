@@ -71,27 +71,27 @@ li{
   margin:20px 0;
   border-radius: 10px;
   font-size: 1.5em;
-  position: relative;
 }
-#btn:hover{
-  border: 2px solid #990000;
-  color:white;
-}
-#btn.btn{
+#btn{
   text-decoration: none;
   font-size: 20px;
   font-family: Verdana, sans-serif;
+  color:#990000;
 }
-#btn.btn a:link{
-  font-weight: 800;
-}
-#btn.btn a:hover{
-  font-weight: 800;
-  color: #990000;
-}
-#btn.btn a:active{
-  font-weight: 800;
+
+#btn a:link{
   text-decoration: none;
+  font-size: .9em;
+}
+#btn a:visited{
+  text-decoration: none;
+}
+#btn a:hover{
+  text-decoration: none;
+}
+#btn a:active{
+  text-decoration: none;
+
 }
 
 
@@ -114,10 +114,12 @@ li{
 }
 
 #subscribe{
-
+  margin-top: 10%;
 }
 
-
+#subscribe-form {
+  margin-top: 15%;
+}
 
 
 
@@ -162,18 +164,43 @@ li{
 /*Wines.html Styles*/
 #wine-nav {
   width: 100%;
-  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/tasting.jpg");
-  height:70vh;
+  background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url("../images/tasting.jpg");
+  height:50vh;
   background-position: center;
   background-size: cover;
 }
 
 #wine-type{
   text-align: center;
-  margin-top: 30%;
+  margin-top: 20%;
   display: inline;
 }
 
 #wine-type h2{
-  color: white;
+  font-color: white;
+}
+
+#wine-type a{
+  text-decoration: none;
+}
+#wine-type a:link{
+  text-decoration: none;
+  color:white;
+}
+#wine-type a:visited{
+  text-decoration: none;
+  color:white;
+}
+#wine-type a:hover{
+  text-decoration: none;
+  color:white;
+  font-weight: 200;
+}
+
+/*not functioning properly*/
+#imagebreak1{
+  background-image: url("../images/grapes.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
 }
