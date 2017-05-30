@@ -81,28 +81,37 @@ h2{
 
 #btn{
   border:1px solid #990000;
-  margin:auto;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  margin-left: -10%;
   padding:10px 20px;
   border-radius: 10px;
+}
+
+#btn a:link{
   text-decoration: none;
+  font-family:'Open Sans',Helvetica, sans-serif;
+  font-weight: 300;
+  color:black;
+  font-size: 1.2em;
+}
+#btn a:visited{
+  text-decoration: none;
+  font-family:'Open Sans',Helvetica, sans-serif;
+  font-weight: 300;
   color:#990000;
 }
-
-#btn-style a:link{
+#btn a:hover{
   text-decoration: none;
-  font-family:'Roboto',Helvetica, sans-serif;
+  font-family:'Open Sans',Helvetica, sans-serif;
   font-weight: 300;
-  color:#990000
+  color: black;
 }
-#btn-style a:visited{
+#btn a:active{
   text-decoration: none;
-}
-#btn-style a:hover{
-  text-decoration: none;
-}
-#btn-style a:active{
-  text-decoration: none;
-
+  font-family:'Open Sans',Helvetica, sans-serif;
+  font-weight: 300;
+  color:black;
 }
 
 
@@ -232,9 +241,6 @@ h2{
   font-weight: 400;
 }
 
-
-
-/*not functioning properly*/
 #imagebreak1{
   width: 100%;
   background-image:url("../images/grapes.jpg");
@@ -264,4 +270,21 @@ h2{
   height:30vh;
   background-position: center;
   background-size: cover;
+}
+
+
+/*About.html Styling*/
+#committment {
+  width: 100%;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url("../images/vineyard3.jpg");
+  height:30vh;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+#about h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
