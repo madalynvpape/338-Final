@@ -2,10 +2,15 @@
 /* CSS Document */
 
 p{
-  font-family: Verdana, sans-serif;
+  font-family:'Open Sans',Helvetica, sans-serif;
   color: black;
 }
-
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 /*Nav Styling begin here*/
@@ -60,11 +65,16 @@ li{
 
 }
 #bootstrap-overrides a:active{
-  color: red;
+  color: #990000;
+  font-weight: 800;
+  border-bottom:1px solid #990000;
 }
 
 
 /*Welcome Container Div sytling*/
+#typography h2{
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
 
 #btn{
   border:1px solid #990000;
@@ -75,12 +85,12 @@ li{
 #btn{
   text-decoration: none;
   font-size: 20px;
-  font-family: Verdana, sans-serif;
   color:#990000;
 }
 
 #btn a:link{
   text-decoration: none;
+  font-family:'Open Sans',Helvetica, sans-serif;
   font-size: .9em;
 }
 #btn a:visited{
@@ -101,13 +111,14 @@ li{
 #signup {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url("../images/corks.jpg");
-  height:70vh;
+  height:50vh;
   background-position: center;
   background-size: cover;
 }
 
 #signup h1{
   color:white;
+  font-family: 'Montserrat', sans-serif;
 }
 #signup p{
   color:white;
@@ -118,9 +129,8 @@ li{
 }
 
 #subscribe-form {
-  margin-top: 15%;
+  margin-top: 10%;
 }
-
 
 
 
@@ -145,6 +155,8 @@ li{
 
 #back-top h2{
   color:gray;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
 }
 
 #foot-text{
@@ -178,6 +190,7 @@ li{
 
 #wine-type h2{
   font-color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 #wine-type a{
@@ -194,7 +207,8 @@ li{
 #wine-type a:hover{
   text-decoration: none;
   color:white;
-  font-weight: 200;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 /*not functioning properly*/
