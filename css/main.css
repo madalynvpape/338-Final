@@ -38,7 +38,7 @@ h2{
   overflow: hidden;
 }
 
-li{
+#bootstrap-overrides li{
   float: left;
   display: inline;
   line-height: 50px;
@@ -52,8 +52,9 @@ li{
 #bootstrap-overrides a:link{
   text-decoration: none;
   font-family: 'Roboto', Helvetica, sans-serif;
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: #8a3433;
+  font-weight:300;
 }
 #bootstrap-overrides a:visited{
   color:black;
@@ -80,28 +81,26 @@ li{
 
 #btn{
   border:1px solid #990000;
-  margin:20px 0;
+  margin:auto;
+  padding:10px 20px;
   border-radius: 10px;
-  font-size: 1.5em;
-}
-#btn{
   text-decoration: none;
-  font-size: 20px;
   color:#990000;
 }
 
-#btn a:link{
+#btn-style a:link{
   text-decoration: none;
-  font-family:'Open Sans',Helvetica, sans-serif;
-  font-size: .9em;
+  font-family:'Roboto',Helvetica, sans-serif;
+  font-weight: 300;
+  color:#990000
 }
-#btn a:visited{
-  text-decoration: none;
-}
-#btn a:hover{
+#btn-style a:visited{
   text-decoration: none;
 }
-#btn a:active{
+#btn-style a:hover{
+  text-decoration: none;
+}
+#btn-style a:active{
   text-decoration: none;
 
 }
@@ -209,6 +208,10 @@ li{
   font-weight: 300;
 }
 
+#red, #syrah, #riesling, #rose{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 #red h3{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -251,6 +254,13 @@ li{
 #imagebreak3{
   width: 100%;
   background-image:url("../images/green-grapes.jpg");
+  height:30vh;
+  background-position: center;
+  background-size: cover;
+}
+#imagebreak4 {
+  width: 100%;
+  background-image:url("../images/corks.jpg");
   height:30vh;
   background-position: center;
   background-size: cover;
