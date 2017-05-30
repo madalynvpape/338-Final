@@ -7,11 +7,12 @@ p{
   font-size: 1.1em;
 }
 h1{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 h2{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
+
 
 
 /*Nav Styling begin here*/
@@ -145,10 +146,6 @@ li{
   width: 100%;
   margin: 0 auto;
 }
-.container#footer{
-  /*perhaps have background image or pattern*/
-}
-
 
 #back-top{
   text-align: center;
@@ -156,8 +153,8 @@ li{
 
 #back-top h2{
   color:gray;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 #foot-text{
@@ -177,7 +174,7 @@ li{
 /*Wines.html Styles*/
 #wine-nav {
   width: 100%;
-  background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url("../images/tasting.jpg");
+  background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url("../images/wine.jpeg");
   height:50vh;
   background-position: center;
   background-size: cover;
@@ -185,7 +182,7 @@ li{
 
 #wine-type{
   text-align: center;
-  margin-top: 20%;
+  margin-top: 15%;
   display: inline;
 }
 
@@ -212,8 +209,25 @@ li{
   font-weight: 300;
 }
 
+#red h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
 
+#syrah h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
 
+#riesling h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+#rose h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
 
 
 
@@ -228,7 +242,7 @@ li{
 
 #imagebreak2{
   width: 100%;
-  background-image:url("../images/green-grapes.jpg");
+  background-image:url("../images/holding-grapes.jpg");
   height:30vh;
   background-position: center;
   background-size: cover;
@@ -236,7 +250,7 @@ li{
 
 #imagebreak3{
   width: 100%;
-  background-image:url("../images/barrels.jpg");
+  background-image:url("../images/green-grapes.jpg");
   height:30vh;
   background-position: center;
   background-size: cover;
