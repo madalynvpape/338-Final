@@ -128,6 +128,7 @@ nav a#pull{
   font-weight: 300;
   color:black;
   font-size: 1.2em;
+  background-color: white;
 }
 
 #btn:visited{
@@ -136,14 +137,18 @@ nav a#pull{
   color:#990000;
 }
 #btn:hover{
-  background-color: rgba(153,0,0,.8);
+  background-color: rgba(153,0,0,.7);
   transition-duration: 0.5s;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.15), 0 17px 50px 0 rgba(0,0,0,0.2);
 }
 
 #btn:active{
   font-family:'Open Sans',Helvetica, sans-serif;
   font-weight: 300;
   color:black;
+  background-color: white;
 }
 
 
@@ -164,6 +169,7 @@ nav a#pull{
 }
 #signup p{
   color:white;
+  font-size: 1.2em;
 }
 
 #subscribe{
@@ -179,11 +185,11 @@ nav a#pull{
   background-color: white;
   color: black;
   border-radius: 10px;
-  padding: none 5px;
+  padding: 10px 20px;
 }
 #subscribe-button:hover{
   text-decoration: none;
-  background-color: rgba(0,0,0,.9);
+  background-color: rgba(153,0,0,.7);
   color: white;
   transition-duration: 0.5s;
 }
@@ -201,12 +207,26 @@ nav a#pull{
 #back-top{
   text-align: center;
 }
+#back-top a{
+  text-decoration: none;
+  color: gray;
+}
+
+#back-top a:hover{
+  color: #990000;
+}
+
+#back-top a:active{
+  color: #990000;
+}
 
 #back-top h2{
-  color:gray;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  font-size: 1.5em;
+  margin-top: 0;
 }
+
 
 #foot-text{
   text-align: center;
@@ -286,6 +306,8 @@ nav a#pull{
   height:30vh;
   background-position: center;
   background-size: cover;
+  text-align: center;
+  color: white;
 }
 
 #imagebreak2{
@@ -294,6 +316,8 @@ nav a#pull{
   height:30vh;
   background-position: center;
   background-size: cover;
+  text-align: center;
+  color: white;
 }
 
 #imagebreak3{
@@ -302,7 +326,10 @@ nav a#pull{
   height:30vh;
   background-position: center;
   background-size: cover;
+  text-align: center;
+  color: white;
 }
+
 #imagebreak4 {
   width: 100%;
   background-image:url("../images/corks.jpg");
