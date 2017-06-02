@@ -14,7 +14,6 @@ h2{
 }
 
 
-
 /*Nav Styling begin here*/
 #logo{
   float: left;
@@ -22,10 +21,10 @@ h2{
 }
 
 #top{
-  height: 60px;
+  height:auto;
   color: grey;
-  overflow: hidden;
   margin:10px;
+  word-wrap: break-word;
 }
 
 #bootstrap-overrides nav{
@@ -73,10 +72,49 @@ h2{
   border-bottom:1px solid #990000;
 }
 
+nav a#pull{
+  display: none;
+}
+
+/*Nav styles for small screens*/
+
+@media screen and (max-width: 480px) {
+
+#bootstrap-overrides nav ul{
+  display: none;
+  height: auto;
+}
+
+#bootstrap-overrides nav a#pull{
+  display: block;
+  background-color: white;
+  width: 100%;
+}
+
+#bootstrap-overrides nav a#pull:after{
+  content:"";
+  background: url("../images/haburgermenu.gif");
+  width:20px;
+  height:20px;
+  display: inline-block;
+  position: absolute;
+  right:50px;
+  top: 30px;
+}
+
+}
+
+
+
+
 
 /*Welcome Container Div sytling*/
 #typography h2{
-  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+#typography{
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 #btn{
@@ -86,29 +124,23 @@ h2{
   margin-left: -10%;
   padding:10px 20px;
   border-radius: 10px;
-}
-
-#btn a:link{
-  text-decoration: none;
   font-family:'Open Sans',Helvetica, sans-serif;
   font-weight: 300;
   color:black;
   font-size: 1.2em;
 }
-#btn a:visited{
-  text-decoration: none;
+
+#btn:visited{
   font-family:'Open Sans',Helvetica, sans-serif;
   font-weight: 300;
   color:#990000;
 }
-#btn a:hover{
-  text-decoration: none;
-  font-family:'Open Sans',Helvetica, sans-serif;
-  font-weight: 300;
-  color: black;
+#btn:hover{
+  background-color: rgba(153,0,0,.8);
+  transition-duration: 0.5s;
 }
-#btn a:active{
-  text-decoration: none;
+
+#btn:active{
   font-family:'Open Sans',Helvetica, sans-serif;
   font-weight: 300;
   color:black;
@@ -141,9 +173,20 @@ h2{
 #subscribe-form {
   margin-top: 10%;
 }
-
-
-
+#subscribe-button{
+  border:1px solid #990000;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: none 5px;
+}
+#subscribe-button:hover{
+  text-decoration: none;
+  background-color: rgba(0,0,0,.9);
+  color: white;
+  transition-duration: 0.5s;
+}
 
 /*Footer Div styling*/
 #footer{
@@ -168,10 +211,6 @@ h2{
 #foot-text{
   text-align: center;
   margin:0;
-}
-
-#foot-text p{
-
 }
 
 
@@ -274,17 +313,32 @@ h2{
 
 
 /*About.html Styling*/
-#committment {
+#commitment {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url("../images/vineyard3.jpg");
-  height:30vh;
+  height:50vh;
   background-position: center;
   background-size: cover;
 }
-
-
+#commitment-content{
+  margin-top: 5%;
+}
+#commitment-content h2{
+  font-family: 'Montserrat', sans-serif;;
+  font-weight: 400;
+  font-style: italic;
+  color: white;
+}
+#commitment-content p{
+  color: white;
+}
 
 #about h2{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+}
+
+#the-winemaker, #the-wines, #the-bird{
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
