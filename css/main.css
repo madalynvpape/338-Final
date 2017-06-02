@@ -72,6 +72,7 @@ h2{
   border-bottom:1px solid #990000;
 }
 
+
 nav a#pull{
   display: none;
 }
@@ -309,7 +310,6 @@ nav a#pull{
   text-align: center;
   color: white;
 }
-
 #imagebreak2{
   width: 100%;
   background-image:url("../images/holding-grapes.jpg");
@@ -319,7 +319,6 @@ nav a#pull{
   text-align: center;
   color: white;
 }
-
 #imagebreak3{
   width: 100%;
   background-image:url("../images/green-grapes.jpg");
@@ -327,9 +326,7 @@ nav a#pull{
   background-position: center;
   background-size: cover;
   text-align: center;
-  color: white;
 }
-
 #imagebreak4 {
   width: 100%;
   background-image:url("../images/corks.jpg");
@@ -337,6 +334,25 @@ nav a#pull{
   background-position: center;
   background-size: cover;
 }
+/*Styling for back to top arrows on imagebreaks*/
+#imagebreak1 i, #imagebreak2 i, #imagebreak3 i{
+  margin-top: 7%;
+}
+
+#imagebreak1 a, #imagebreak2 a, #imagebreak3 a{
+  text-decoration: none;
+  color: rgba(255,255,255,.4);
+}
+
+#imagebreak1 a:link, #imagebreak2 a:link, #imagebreak3 a:link{
+  text-decoration: none;
+  color: rgba(255,255,255,.4);
+}
+#imagebreak1 a:hover, #imagebreak2 a:hover, #imagebreak3 a:hover{
+  color: rgba(0, 0, 0, .4);
+}
+
+
 
 
 /*About.html Styling*/
