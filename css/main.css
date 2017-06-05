@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*Begin Home page and Main Styling*/
 p{
   font-family:'Open Sans',Helvetica, sans-serif;
   color: black;
@@ -171,6 +172,7 @@ nav a#pull{
 #signup p{
   color:white;
   font-size: 1.2em;
+  text-align: justify;
 }
 
 #subscribe{
@@ -194,6 +196,59 @@ nav a#pull{
   color: white;
   transition-duration: 0.5s;
 }
+
+/*Club Waxwing div styling*/
+#club h2{
+  font-family: 'Roboto', Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 7%;
+}
+#club h2:after{
+  width: 200px;
+  height: 2px;
+  background-color: #990000;
+  display: block;
+  content: "";
+  margin:0 auto;
+  margin-top: 20px;
+}
+
+#club p{
+  margin-top: 3%;
+  text-align: center;
+  line-height: 1.6em;
+  margin-bottom: 10%;
+}
+
+
+/*Follow Us div styling*/
+#follow-us {
+  width: 100%;
+  background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url("../images/samplewaxwing2.jpg");
+  height:50vh;
+  background-position: center;
+  background-size: cover;
+}
+#follow{
+  text-align: center;
+  color: white;
+}
+#follow h2{
+  margin-top: 15%;
+  font-weight: 300;
+
+}
+
+#follow i{
+  color: white;
+  margin:0 auto;
+  margin-top: 3%;
+}
+#follow i:hover{
+  color: #990000;
+}
+
 
 /*Footer Div styling*/
 #footer{
@@ -238,7 +293,7 @@ nav a#pull{
 
 
 
-
+/*End Home page and Main Styling*/
 /*Wines.html Styles*/
 #wine-nav {
   width: 100%;
