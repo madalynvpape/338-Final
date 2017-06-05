@@ -229,6 +229,7 @@ nav a#pull{
   height:50vh;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 #follow{
   text-align: center;
@@ -237,7 +238,6 @@ nav a#pull{
 #follow h2{
   margin-top: 15%;
   font-weight: 300;
-
 }
 
 #follow i{
@@ -301,6 +301,7 @@ nav a#pull{
   height:50vh;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 #wine-type{
@@ -439,4 +440,43 @@ nav a#pull{
 #the-winemaker, #the-wines, #the-bird{
   margin-top: 10%;
   margin-bottom: 10%;
+}
+
+
+
+/*Vineyards Page Styling*/
+#l-vine {
+  width: 100%;
+  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.1)), url("../images/lester-vineyard.jpg");
+  height:50vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#s-vine {
+  width: 100%;
+  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.1)), url("../images/vineyard-sunset.jpg");
+  height:50vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#f-vine {
+  width: 100%;
+  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.1)), url("../images/f-vineyard.jpg");
+  height:50vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#t-vine {
+  width: 100%;
+  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.1)), url("../images/vineyard3.jpg");
+  height:50vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
