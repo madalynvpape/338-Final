@@ -160,7 +160,7 @@ nav a#pull{
 #signup {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url("../images/corks.jpg");
-  height:50vh;
+  height:60vh;
   background-position: center;
   background-size: cover;
 }
@@ -202,7 +202,7 @@ nav a#pull{
   font-family: 'Roboto', Helvetica, sans-serif;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 7%;
+  margin-top: 15%;
 }
 #club h2:after{
   width: 200px;
@@ -218,7 +218,7 @@ nav a#pull{
   margin-top: 3%;
   text-align: center;
   line-height: 1.6em;
-  margin-bottom: 10%;
+  margin-bottom: 20%;
 }
 
 
@@ -446,22 +446,36 @@ nav a#pull{
 
 /*Vineyards Page Styling*/
 #lester p, #tondre p, #flocchini p, #springhill p{
-  margin: 20% auto;
-  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 20%;
+  text-align: justify;
 }
 
 #l-vine h1, #s-vine h1, #f-vine h1, #t-vine h1{
-  margin-top: 50%;
+  margin-top: 30%;
   font-size: 3em;
   text-align: center;
   font-weight: 300;
 }
 
+#lester h2, #tondre h2, #flocchini h2, #springhill h2{
+  margin-top: 20%;
+  text-align: center;
+}
+#lester h2:after, #tondre h2:after, #flocchini h2:after, #springhill h2:after{
+  width: 160px;
+  height: 2px;
+  background-color: #990000;
+  display: block;
+  content: "";
+  margin:0 auto;
+  margin-top: 20px;
+}
 
 #l-vine {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/lester-vineyard.jpg");
-  height:100vh;
+  height:80vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -471,7 +485,7 @@ nav a#pull{
 #s-vine {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/vineyard-sunset.jpg");
-  height:100vh;
+  height:80vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -481,7 +495,7 @@ nav a#pull{
 #f-vine {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/f-vineyard.jpg");
-  height:100vh;
+  height:80vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -491,7 +505,7 @@ nav a#pull{
 #t-vine {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/vineyard3.jpg");
-  height:100vh;
+  height:80vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
