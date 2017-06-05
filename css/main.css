@@ -445,38 +445,55 @@ nav a#pull{
 
 
 /*Vineyards Page Styling*/
+#lester p, #tondre p, #flocchini p, #springhill p{
+  margin: 20% auto;
+  text-align: center;
+}
+
+#l-vine h1, #s-vine h1, #f-vine h1, #t-vine h1{
+  margin-top: 50%;
+  font-size: 3em;
+  text-align: center;
+  font-weight: 300;
+}
+
+
 #l-vine {
   width: 100%;
-  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.1)), url("../images/lester-vineyard.jpg");
-  height:50vh;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/lester-vineyard.jpg");
+  height:100vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  color: white;
 }
 
 #s-vine {
   width: 100%;
-  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.1)), url("../images/vineyard-sunset.jpg");
-  height:50vh;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/vineyard-sunset.jpg");
+  height:100vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  color: white;
 }
 
 #f-vine {
   width: 100%;
-  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.1)), url("../images/f-vineyard.jpg");
-  height:50vh;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/f-vineyard.jpg");
+  height:100vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  color: white;
 }
 
 #t-vine {
   width: 100%;
-  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.1)), url("../images/vineyard3.jpg");
-  height:50vh;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/vineyard3.jpg");
+  height:100vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  color: white;
 }
