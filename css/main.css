@@ -317,13 +317,15 @@ nav a#pull{
   background-size: cover;
   background-attachment: fixed;
 }
-#follow{
+#follow p{
   text-align: center;
   color: white;
 }
 #follow h2{
   margin-top: 15%;
   font-weight: 300;
+  color: white;
+  text-align: center;
 }
 
 #follow i{
@@ -371,13 +373,13 @@ nav a#pull{
 }
 
 
-#foot-text{
+#foot-text p{
   text-align: center;
-  margin-top: 3%;
 }
 
 hr{
   width: 100%;
+  margin-bottom: 3%;
 }
 
 
