@@ -458,18 +458,51 @@ hr{
 
 
 /*About Page Styling*/
+#commitment{
+  width: 100%;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url("../images/corks-glass.jpg");
+  height:40vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
+#commit h1{
+  color: white;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 5em;
+  margin-top: 10%;
+}
 
+#gridrow-1{
+  margin-top: 10%;
+}
 
+#gridrow-2{
+  margin-top: 3%;
+}
 
+#about p{
+  text-align: justify;
+}
 
+#winemaker h2, #thebird h2, #thewine h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 10%;
+}
 
-
-
-
-
-
-
+#winemaker h2:after, #thebird h2:after, #thewine h2:after{
+  width: 60px;
+  height: 2px;
+  background-color: #990000;
+  display: block;
+  content: "";
+  margin:0 auto;
+  margin-top: 10px;
+}
 
 
 
