@@ -56,17 +56,19 @@ h2{
   color: #8a3433;
   font-weight:300;
 }
+
 #bootstrap-overrides a:visited{
   color:black;
 }
+
 #bootstrap-overrides a:hover{
   color: #990000;
   font-weight: 500;
   border-bottom:1px solid #990000;
   transition: all 0.5s ease-in;
   padding:5px 0;
-
 }
+
 #bootstrap-overrides a:active{
   color: #990000;
   font-weight: 600;
@@ -227,6 +229,40 @@ nav a#pull{
   line-height: 1.6em;
   margin-bottom: 20%;
 }
+
+
+/*More div styling*/
+#more{
+  background-color: #990000;
+  width: 100%;
+  color: rgba(255,255,255,.7);
+}
+
+#more h3{
+  margin-top: 20%;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#more h3:after{
+  width: 50px;
+  height: 2px;
+  background-color: rgba(255,255,255,.7);
+  display: block;
+  content: "";
+  margin:0 auto;
+  margin-top: 10px;
+}
+
+#more p{
+  color: rgba(255,255,255,.8);
+  margin-bottom: 20%;
+  margin-top: 5%;
+  text-align: justify;
+}
+
+
+
 
 
 /*Follow Us div styling*/
@@ -407,7 +443,7 @@ hr{
 
 #imagebreak1 a, #imagebreak2 a, #imagebreak3 a{
   text-decoration: none;
-  color: rgba(255,255,255,.4);
+  color: rgba(255,255,255,.7);
 }
 
 #imagebreak1 a:link, #imagebreak2 a:link, #imagebreak3 a:link{
@@ -421,36 +457,19 @@ hr{
 
 
 
-/*About.html Styling*/
-#commitment {
-  width: 100%;
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url("../images/vineyard3.jpg");
-  height:50vh;
-  background-position: center;
-  background-size: cover;
-}
-#commitment-content{
-  margin-top: 5%;
-}
-#commitment-content h2{
-  font-family: 'Montserrat', sans-serif;;
-  font-weight: 400;
-  font-style: italic;
-  color: white;
-}
-#commitment-content p{
-  color: white;
-}
+/*About Page Styling*/
 
-#about h2{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-}
 
-#the-winemaker, #the-wines, #the-bird{
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
+
+
+
+
+
+
+
+
+
+
 
 
 
