@@ -502,74 +502,6 @@ hr{
 
 
 
-/*About Page Styling*/
-#commitment{
-  width: 100%;
-  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)), url("../images/barrels.jpg");
-  height:40vh;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-#commit h1{
-  color: rgba(255,255, 255,.5);
-  font-family: 'Roboto', Helvetica, sans-serif;
-  text-transform: uppercase;
-  font-size: 6em;
-  font-weight: 400;
-  margin-top: 20%;
-  text-align: center;
-}
-
-#gridrow-1{
-  margin-top: 10%;
-}
-
-#gridrow-2{
-  margin-top: 3%;
-}
-
-#about p{
-  text-align: justify;
-  margin-top: 5%;
-}
-
-#winemaker h2, #thebird h2, #thewine h2{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  text-align: center;
-  margin-top: 15%;
-  margin-left: 4%;
-  margin-right: 4%;
-}
-
-#winemaker h2:after, #thebird h2:after, #thewine h2:after{
-  width: 60px;
-  height: 2px;
-  background-color: #990000;
-  display: block;
-  content: "";
-  margin:0 auto;
-  margin-top: 15px;
-}
-
-#thebird{
-  background-color: white;
-  height: 100vh;
-  max-width: 30%;
-}
-
-#bird{
-  width: 100%;
-  background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url("../images/birdcedarwaxwing.jpg");
-  height:60vh;
-  background-position: center;
-  background-size: cover;
-}
-
-
-
 
 
 /*Vineyards Page Styling*/
@@ -651,4 +583,90 @@ hr{
   background-size: cover;
   background-attachment: fixed;
   color: white;
+}
+/*End Vineyards page styling*/
+
+
+
+
+/*About Page Styling*/
+#commitment{
+  width: 100%;
+  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.4)), url("../images/holding-grapes.jpg");
+  height:30vh;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#commit h1{
+  color: rgba(255,255, 255,.5);
+  font-family: 'Roboto', Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 6em;
+  font-weight: 400;
+  margin-top: 10%;
+  text-align: center;
+}
+
+#image-grid{
+  list-style: none;
+  width: 100%;
+}
+
+#image-grid li{
+  display: block;
+  width: 25%;
+  float: left;
+}
+
+#grid-photo{
+  width: 100%;
+  margin: 0;
+}
+
+#grid-photo img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+#about p{
+  text-align: justify;
+  margin-top: 5%;
+}
+
+#winemaker h2, #thebird h2, #thewine h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+#winemaker h2:after, #thebird h2:after, #thewine h2:after{
+  width: 60px;
+  height: 2px;
+  background-color: #990000;
+  display: block;
+  content: "";
+  margin:0 auto;
+  margin-top: 15px;
+}
+
+#thebird{
+  background-color: white;
+  height: 100vh;
+  max-width: 30%;
+}
+
+#bird{
+  width: 100%;
+  background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url("../images/birdcedarwaxwing.jpg");
+  height:60vh;
+  background-position: center;
+  background-size: cover;
 }
