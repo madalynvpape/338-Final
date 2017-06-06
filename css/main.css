@@ -6,9 +6,16 @@ p{
   font-family:'Open Sans',Helvetica, sans-serif;
   color: black;
   font-size: 1.1em;
+  text-align: justify;
 }
 h1{
-  font-family: 'Roboto', sans-serif;
+  color: rgba(255,255, 255,.5);
+  font-family: 'Roboto', Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 6em;
+  font-weight: 400;
+  margin-top: 20%;
+}
 }
 h2{
   font-family: 'Roboto', sans-serif;
@@ -114,12 +121,31 @@ nav a#pull{
 
 /*Welcome Container Div sytling*/
 #typography h2{
+  color: rgba(255,255, 255,.8);
   font-family: 'Roboto', Helvetica, sans-serif;
-
+  font-size: 3em;
+  font-weight: 400;
 }
-#typography{
-  margin-top: 4%;
-  margin-bottom: 4%;
+#typography h1{
+  color: rgba(0,0,0,.85);
+  font-family: 'Roboto', Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 400;
+  margin-top: 30%;
+  margin-bottom: 10%;
+  text-align: left;
+}
+#typography h1:after{
+  position: absolute;
+  width: 250px;
+  height: 2px;
+  background-color: #990000;
+  display: block;
+  content: "";
+  margin:0 auto;
+  margin-top: 5%;
+  margin-right: 45%;
 }
 
 #typography p{
@@ -131,7 +157,7 @@ nav a#pull{
 #btn{
   border:1px solid #990000;
   margin-top: 10%;
-  margin-bottom: 20%;
+  margin-bottom: 80%;
   margin-left: -10%;
   padding:10px 20px;
   border-radius: 10px;
@@ -175,8 +201,10 @@ nav a#pull{
 }
 
 #signup h1{
-  color:white;
-  font-family: 'Montserrat', sans-serif;
+  color: rgba(255,255, 255,.8);
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 4em;
+  font-weight: 400;
 }
 #signup p{
   color:white;
@@ -185,7 +213,7 @@ nav a#pull{
 }
 
 #subscribe{
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 #subscribe-form {
@@ -214,20 +242,29 @@ nav a#pull{
   margin-top: 15%;
 }
 #club h2:after{
-  width: 200px;
+  width: 150px;
   height: 2px;
   background-color: #990000;
   display: block;
   content: "";
   margin:0 auto;
-  margin-top: 20px;
+  margin-top:2%;
+  margin-bottom: 3%;
 }
 
 #club p{
-  margin-top: 3%;
-  text-align: center;
+  margin-top: 5%;
+  text-align: justify;
   line-height: 1.6em;
-  margin-bottom: 20%;
+  margin-bottom: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#club h4{
+  color: #990000;
+  text-align: center;
+  margin-bottom: 3%;
 }
 
 
@@ -240,14 +277,18 @@ nav a#pull{
   color: rgba(255,255,255,.7);
 }
 
-#more h3{
+#more h1{
   margin-top: 20%;
   margin-bottom: 0;
   text-align: center;
+  color: rgba(255,255, 255,.8);
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 4em;
+  font-weight: 400;
 }
 
-#more h3:after{
-  width: 50px;
+#more h1:after{
+  width: 200px;
   height: 2px;
   background-color: rgba(255,255,255,.7);
   display: block;
@@ -260,7 +301,7 @@ nav a#pull{
   color: rgba(255,255,255,.8);
   margin-bottom: 20%;
   margin-top: 5%;
-  text-align: justify;
+  text-align: center;
 }
 
 
@@ -462,7 +503,7 @@ hr{
 /*About Page Styling*/
 #commitment{
   width: 100%;
-  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/grapes.jpg");
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)), url("../images/barrels.jpg");
   height:40vh;
   background-position: center;
   background-size: cover;
@@ -537,11 +578,15 @@ hr{
 }
 
 #l-vine h1, #s-vine h1, #f-vine h1, #t-vine h1{
-  margin-top: 30%;
-  font-size: 4em;
+  color: rgba(255,255, 255,.5);
+  font-family: 'Roboto', Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 6em;
+  font-weight: 400;
+  margin-top: 20%;
   text-align: center;
-  font-weight: 300;
 }
+
 
 #l-vine h3, #s-vine h3, #f-vine h3, #t-vine h3{
   text-align: center;
@@ -569,7 +614,7 @@ hr{
 #l-vine {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/lester-vineyard.jpg");
-  height:80vh;
+  height:70vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -579,7 +624,7 @@ hr{
 #s-vine {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/vineyard-sunset.jpg");
-  height:80vh;
+  height:70vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -589,7 +634,7 @@ hr{
 #f-vine {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/f-vineyard.jpg");
-  height:80vh;
+  height:70vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
