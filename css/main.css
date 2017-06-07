@@ -629,13 +629,12 @@ hr{
 
 #grid-photo img{
   width: 100%;
-
-  transform: scale(1.15);
+  transform: scale(1.00);
   transition: all 0.5s;
 }
 
 #grid-photo img:hover{
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
 
 
