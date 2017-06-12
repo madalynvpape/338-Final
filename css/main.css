@@ -605,26 +605,30 @@ hr{
 
 /*About Page Styling*/
 #commitment{
-  width: 100%;
-  /*background-image:url("../images/solidbackground.jpg");
-  height:30vh;
-  background-position: bottom;
-  background-size: cover;
-  background-attachment: fixed;*/
-  background-color: white;
-  height: 40vh;
+    width: 100%;
+    height: 40vh;
 }
 
 #commit h1{
-  color: rgba(0,0, 0,.9);
-  font-family: 'Roboto', Helvetica, sans-serif;
-  text-transform: uppercase;
-  font-size: 5em;
-  font-weight: 400;
-  margin-top: 10%;
+  margin-top: 20%;
+  margin-bottom: 0;
   text-align: center;
-  font-style: italic;
+  color: black;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 4em;
+  font-weight: 400;
 }
+
+#commit h1:after{
+  width: 200px;
+  height: 2px;
+  background-color: #990000;
+  display: block;
+  content: "";
+  margin:0 auto;
+  margin-top: 10px;
+}
+
 #remove-padding{
   padding-left: 0;
   padding-right: 0;
@@ -656,7 +660,8 @@ hr{
 
 #about-nav{
   width: 100%;
-  background-image: url("../images/solidbackground.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url("../images/green-grapes.jpg");
+  height:auto;
   background-position: center;
   background-size: cover;
   height: 40vh;
@@ -665,8 +670,7 @@ hr{
 
 #about-links{
   text-align: center;
-  margin-top: 10%;
-
+  margin-top:8%;
   display: inline;
 }
 
@@ -675,15 +679,16 @@ hr{
 }
 #about-links a:link{
   text-decoration: none;
-  color:rgba(255,255,255,.7);
+  color:rgba(255,255,255,0.9);
+  font-weight: 400;
 }
 #about-links a:visited{
   text-decoration: none;
-  color:white;
+  color:rgba(255,255,255,0.6);
 }
 #about-links a:hover{
   text-decoration: none;
-  color:white;
+  color:rgba(255,255,255,0.6);
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
@@ -721,12 +726,59 @@ hr{
   background-color: white;
   height: 100vh;
   max-width: 30%;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
 }
 
-#bird{
+#findus{
   width: 100%;
-  background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url("../images/birdcedarwaxwing.jpg");
-  height:60vh;
+  background-image: url("../images/solidbackground.jpg");
+  height:auto;
   background-position: center;
   background-size: cover;
+  height: 30vh;
+  background-attachment: fixed;
+}
+
+#find h1{
+  color: rgba(255,255,255,0.6);
+  font-family: 'Roboto', Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 4em;
+  font-weight: 400;
+  margin-top: 10%;
+  text-align: center;
+}
+
+#merchants h2{
+  font-family: 'Roboto', Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 15%;
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1.2em;
+}
+#merchants h2:after{
+  width: 200px;
+  height: 2px;
+  background-color: #990000;
+  display: block;
+  content: "";
+  margin:0 auto;
+  margin-top:2%;
+  margin-bottom: 3%;
+}
+
+#merchants p{
+  text-align: left;
+  line-height: 1.2em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#merchants h4{
+  color: #990000;
+  text-align: center;
+  margin-bottom: 5%;
 }
