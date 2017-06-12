@@ -737,7 +737,7 @@ hr{
   height:auto;
   background-position: center;
   background-size: cover;
-  height: 30vh;
+  height: 40vh;
   background-attachment: fixed;
 }
 
@@ -747,7 +747,7 @@ hr{
   text-transform: uppercase;
   font-size: 4em;
   font-weight: 400;
-  margin-top: 10%;
+  margin-top: 15%;
   text-align: center;
 }
 
@@ -771,10 +771,10 @@ hr{
 }
 
 #merchants p{
-  text-align: left;
-  line-height: 1.2em;
+  text-align: justify;
+  line-height: 1.1em;
   margin-left: 5%;
-  margin-right: 5%;
+
 }
 
 #merchants h4{
