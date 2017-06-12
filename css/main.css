@@ -627,6 +627,7 @@ hr{
   content: "";
   margin:0 auto;
   margin-top: 10px;
+  margin-bottom: 10%;
 }
 
 #remove-padding{
@@ -640,21 +641,21 @@ hr{
   margin-left: 0;
   margin-right: 0;
 }
-
-#grid-photo{
-  padding-left: 0;
-  padding-right: 0;
-  overflow: hidden;
-  float: left;
+#gridrow-1{
+  margin-bottom: 2%;
 }
 
-#grid-photo img{
+#gridrow-2{
+  margin-bottom: 5%;
+}
+
+#image-grid img{
   width: 100%;
   transform: scale(1.00);
   transition: all 0.5s;
 }
 
-#grid-photo img:hover{
+#image-grid img:hover{
   transform: scale(1.08);
 }
 
@@ -771,7 +772,7 @@ hr{
 }
 
 #merchants p{
-  text-align: justify;
+  text-align: left;
   line-height: 1.1em;
   margin-left: 5%;
 
