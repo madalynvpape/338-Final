@@ -82,41 +82,6 @@ h2{
 }
 
 
-nav a#pull{
-  display: none;
-}
-
-/*Nav styles for small screens*/
-
-@media screen and (max-width: 480px) {
-
-#bootstrap-overrides nav ul{
-  display: none;
-  height: auto;
-}
-
-#bootstrap-overrides nav a#pull{
-  display: block;
-  background-color: white;
-  width: 100%;
-}
-
-#bootstrap-overrides nav a#pull:after{
-  content:"";
-  background: url("../images/haburgermenu.gif");
-  width:20px;
-  height:20px;
-  display: inline-block;
-  position: absolute;
-  right:50px;
-  top: 30px;
-}
-
-}
-
-
-
-
 
 /*Welcome Container Div sytling*/
 #typography h2{
@@ -604,32 +569,56 @@ hr{
 
 
 /*About Page Styling*/
+#about-nav{
+  width: 100%;
+  background-image: url("../images/solidbackground.jpg");
+  height:auto;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  background-attachment: fixed;
+}
+
+#about-nav h1{
+  color: rgba(255,255,255,0.7);
+  font-family: 'Roboto', Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 4em;
+  font-weight: 400;
+  margin-top: 12%;
+  text-align: center;
+}
+
+
+#about{
+  height: auto;
+  width: 100%;
+  padding: 5%;
+  text-align: center;
+}
+
 #commitment{
-    width: 100%;
-    height: 40vh;
+  width: 100%;
+  background-image: url("../images/solidbackground.jpg");
+  height:auto;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  background-attachment: fixed;
 }
 
 #commit h1{
-  margin-top: 20%;
+  margin-top: 12%;
   margin-bottom: 0;
   text-align: center;
-  color: black;
+  color: rgba(255,255,255,0.7);
   font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 4em;
   font-weight: 400;
 }
 
-#commit h1:after{
-  width: 200px;
-  height: 2px;
-  background-color: #990000;
-  display: block;
-  content: "";
-  margin:0 auto;
-  margin-top: 10px;
-  margin-bottom: 10%;
-}
 
+/* Used to override bootstrap and create fully fluid container w/ no margins
 #remove-padding{
   padding-left: 0;
   padding-right: 0;
@@ -641,7 +630,10 @@ hr{
   margin-left: 0;
   margin-right: 0;
 }
+*/
+
 #gridrow-1{
+  margin-top: 5%;
   margin-bottom: 2%;
 }
 
@@ -659,49 +651,10 @@ hr{
   transform: scale(1.08);
 }
 
-#about-nav{
-  width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url("../images/green-grapes.jpg");
-  height:auto;
-  background-position: center;
-  background-size: cover;
-  height: 40vh;
-  background-attachment: fixed;
-}
-
-#about-links{
-  text-align: center;
-  margin-top:8%;
-  display: inline;
-}
-
-#about-links a{
-  text-decoration: none;
-}
-#about-links a:link{
-  text-decoration: none;
-  color:rgba(255,255,255,0.9);
-  font-weight: 400;
-}
-#about-links a:visited{
-  text-decoration: none;
-  color:rgba(255,255,255,0.6);
-}
-#about-links a:hover{
-  text-decoration: none;
-  color:rgba(255,255,255,0.6);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-}
 
 #about p{
   text-align: justify;
   margin-top: 5%;
-}
-
-#empty{
-  width: 100%;
-  height: 40vh;
 }
 
 #winemaker h2, #thebird h2, #thewine h2{
@@ -723,15 +676,6 @@ hr{
   margin-top: 15px;
 }
 
-#thebird{
-  background-color: white;
-  height: 100vh;
-  max-width: 30%;
-  padding-left: 0;
-  padding-right: 0;
-  overflow: hidden;
-}
-
 #findus{
   width: 100%;
   background-image: url("../images/solidbackground.jpg");
@@ -743,12 +687,12 @@ hr{
 }
 
 #find h1{
-  color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.7);
   font-family: 'Roboto', Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: 4em;
   font-weight: 400;
-  margin-top: 15%;
+  margin-top: 12%;
   text-align: center;
 }
 
