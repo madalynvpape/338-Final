@@ -131,6 +131,8 @@ h2{
   font-size: 1.2em;
   background-color: white;
 }
+
+/*same button style w/ different positioning for Wines.html page*/
 #addtocart-btn{
   border:1px solid #990000;
   margin-top: 5%;
@@ -171,6 +173,7 @@ h2{
 #signup {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url("../images/corks.jpg");
+  /*Background Image courtesy of Elisha Treads retrieved from Unsplash.com*/
   height:auto;
   background-position: center;
   background-size: cover;
@@ -249,6 +252,7 @@ h2{
 #flights{
   width: 100%;
   background-image: url("../images/solidbackground.jpg");
+  /*Background Image courtesy of Elisha Treads retrieved from Unsplash.com*/
   background-position: center;
   background-size: cover;
   color: rgba(255,255,255,.7);
@@ -282,7 +286,6 @@ h2{
   margin-top: 5%;
   text-align: center;
 }
-/*End Friday Night Flights styling*/
 
 
 
@@ -291,6 +294,7 @@ h2{
 #follow-us {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url("../images/samplewaxwing2.jpg");
+  /*Background Image courtesy of WineProGuy retrieved from wineproguy.blogspot.com*/
   height:50vh;
   background-position: center;
   background-size: cover;
@@ -368,26 +372,38 @@ hr{
 #wine-nav {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url("../images/wine.jpeg");
+  /*Background Image courtesy of Timur Saglambilek retrieved from Pexel.com*/
   height:50vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  overflow: scroll;
+}
+
+#wine-nav h1{
+  color: rgba(255,255, 255,.5);
+  font-family: 'Roboto', Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 6em;
+  font-weight: 400;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
 }
 
 #wine-type{
   text-align: center;
-  margin-top: 15%;
   display: inline;
 }
 
 #wine-type h2{
-  font-color: white;
+  color: white;
   font-family: 'Roboto', sans-serif;
+  margin-top: 0;
+  font-size: 2em;
 }
 
-#wine-type a{
-  text-decoration: none;
-}
+
 #wine-type a:link{
   text-decoration: none;
   color:white;
@@ -430,6 +446,7 @@ hr{
 #imagebreak1{
   width: 100%;
   background-image:url("../images/grapes.jpg");
+  /*Background Image courtesy of Yair Aronshtam retrieved from Unsplash.com*/
   height:30vh;
   background-position: center;
   background-size: cover;
@@ -439,6 +456,7 @@ hr{
 #imagebreak2{
   width: 100%;
   background-image:url("../images/holding-grapes.jpg");
+  /*Background Image courtesy of Maja Petric retrieved from Unsplash.com*/
   height:30vh;
   background-position: center;
   background-size: cover;
@@ -448,6 +466,7 @@ hr{
 #imagebreak3{
   width: 100%;
   background-image:url("../images/green-grapes.jpg");
+  /*Background Image courtesy of Milada Vigerova retrieved from Unsplash.com*/
   height:30vh;
   background-position: center;
   background-size: cover;
@@ -456,6 +475,7 @@ hr{
 #imagebreak4 {
   width: 100%;
   background-image:url("../images/corks.jpg");
+  /*Background Image courtesy of Elisha Treads retrieved from Unsplash.com*/
   height:30vh;
   background-position: center;
   background-size: cover;
@@ -467,15 +487,15 @@ hr{
 
 #imagebreak1 a, #imagebreak2 a, #imagebreak3 a{
   text-decoration: none;
-  color: rgba(255,255,255,.7);
+  color: rgba(255,255,255,.9);
 }
 
 #imagebreak1 a:link, #imagebreak2 a:link, #imagebreak3 a:link{
   text-decoration: none;
-  color: rgba(255,255,255,.4);
+  color: rgba(255,255,255,.8);
 }
 #imagebreak1 a:hover, #imagebreak2 a:hover, #imagebreak3 a:hover{
-  color: rgba(0, 0, 0, .4);
+  color: rgba(255, 255, 155, .4);
 }
 
 
@@ -490,13 +510,18 @@ hr{
   text-align: justify;
 }
 
+#second-para p{
+  margin-top: -2%;
+  margin-bottom: 20%;
+}
+
 #l-vine h1, #s-vine h1, #f-vine h1, #t-vine h1{
   color: rgba(255,255, 255,.5);
   font-family: 'Roboto', Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: 6em;
   font-weight: 400;
-  margin-top: 20%;
+  margin-top: 10%;
   text-align: center;
 }
 
@@ -527,7 +552,8 @@ hr{
 #l-vine {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/lester-vineyard.jpg");
-  height:70vh;
+  /*Background Image retrieved from BigBasinVineyards.com*/
+  height:50vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -537,7 +563,8 @@ hr{
 #s-vine {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/vineyard-sunset.jpg");
-  height:70vh;
+  /*Background Image courtesy of Karsten Wurth retrieved from Unsplash.com*/
+  height:50vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -547,7 +574,9 @@ hr{
 #f-vine {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/f-vineyard.jpg");
-  height:70vh;
+  /*Background Image retrieved from Landmarkwine.com
+  (url https://www.landmarkwine.com/wine-blog/meet-farmers-flocchini-vineyards.html)*/
+  height:50vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -557,7 +586,8 @@ hr{
 #t-vine {
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url("../images/vineyard3.jpg");
-  height:80vh;
+  /*Background Image courtesy of Karsten Wurth retrieved from Unsplash.com*/
+  height:50vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -571,11 +601,12 @@ hr{
 /*About Page Styling*/
 #about-nav{
   width: 100%;
-  background-image: url("../images/solidbackground.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)),url("../images/green-grapes.jpg");
+  /*Background Image courtesy of Milada Vigerova retrieved from Unsplash.com*/
   height:auto;
   background-position: center;
   background-size: cover;
-  height: 40vh;
+  height: 50vh;
   background-attachment: fixed;
 }
 
@@ -583,9 +614,9 @@ hr{
   color: rgba(255,255,255,0.7);
   font-family: 'Roboto', Helvetica, sans-serif;
   text-transform: uppercase;
-  font-size: 4em;
+  font-size: 6em;
   font-weight: 400;
-  margin-top: 12%;
+  margin-top: 10%;
   text-align: center;
 }
 
@@ -600,6 +631,7 @@ hr{
 #commitment{
   width: 100%;
   background-image: url("../images/solidbackground.jpg");
+  /*Background Image courtesy of Elisha Treads retrieved from Unsplash.com*/
   height:auto;
   background-position: center;
   background-size: cover;
@@ -616,21 +648,6 @@ hr{
   font-size: 4em;
   font-weight: 400;
 }
-
-
-/* Used to override bootstrap and create fully fluid container w/ no margins
-#remove-padding{
-  padding-left: 0;
-  padding-right: 0;
-  width: 100%;
-}
-
-#fluid-row{
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-}
-*/
 
 #gridrow-1{
   margin-top: 5%;
@@ -657,6 +674,10 @@ hr{
   margin-top: 5%;
 }
 
+.birdy{
+  margin-top:2%;
+}
+
 #winemaker h2, #thebird h2, #thewine h2{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -679,6 +700,7 @@ hr{
 #findus{
   width: 100%;
   background-image: url("../images/solidbackground.jpg");
+  /*Background Image courtesy of Elisha Treads retrieved from Unsplash.com*/
   height:auto;
   background-position: center;
   background-size: cover;
