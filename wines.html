@@ -23,7 +23,7 @@
 
 
 <!--Navigation Bar-->
-<div id="top">
+<div id="top" class="navbar">
     <a href="index.html"><img id="logo" src="images/Waxwing-Logo.gif" alt="waxwing wordmark logo" width="300px"><!--Waxwing Logo retrieved from Waxwingwines.com--></a>
   <nav id="bootstrap-overrides">
     <ul id="bootstrap-overrides">
@@ -39,7 +39,7 @@
 
 <!--BEGIN Wine Nav (secondary navigation)-->
 <!--Background Image courtesy of Timur Saglambilek retrieved from Pexel.com-->
-  <div id="wine-nav" class="container-fluid">
+  <div id="wine-nav" class="container-fluid winenav">
     <div class="row">
       <h1 id="hide">Our Wines</h1>
     </div>
@@ -240,14 +240,6 @@
 
 
 
-
-
-
-
-
-
-
-
 <!--Footer div-->
 <div id="footer" class="container-fluid">
     <div id="back-top" class="row">
@@ -265,6 +257,42 @@
         </p>
     </div>
 </div><!--end footer container-->
+
+
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".winenav", offset: 50});
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#wine-nav a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+</script>
 
 </body>
 </html>
